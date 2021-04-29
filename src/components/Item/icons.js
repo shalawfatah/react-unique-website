@@ -1,4 +1,4 @@
-import { SiGmail, SiYoutubetv, SiTwitter} from "react-icons/si";
+import { SiGmail, SiYoutubetv, SiTwitter, SiTwitch, SiTelegram, SiSlack} from "react-icons/si";
 
 
 const items = [
@@ -13,6 +13,18 @@ const items = [
     {
         icon: <SiTwitter />,
         title: 'Twitter'
+    },
+    {
+        icon: <SiTwitch />,
+        title: 'Twitch'
+    },
+    {
+        icon: <SiTelegram />,
+        title: 'Telegram'
+    },
+    {
+        icon: <SiSlack />,
+        title: 'Slack'
     },
 ]
 

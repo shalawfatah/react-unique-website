@@ -9,6 +9,7 @@
     font-size: 4rem;
     color: rgb(253, 70, 24);
     transition: all .3s ease;
+    margin: 2rem;
 }
 .icon:hover {
     color: blanchedalmond;
@@ -19,4 +20,5 @@
 .app-container {
     margin: 2rem;
     display: flex;
+    flex-wrap: wrap;
 }
