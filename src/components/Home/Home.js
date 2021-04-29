@@ -7,7 +7,7 @@ import Item from '../Item/Item'
 const Home = () => {
     return (
         <div className="home-container">
-          <Item />
+          <Item icon={'hi'} title='Celebration' />
         </div>
     )
 }

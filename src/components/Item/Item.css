@@ -1,0 +1,17 @@
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon {
+    font-size: 4rem;
+    color: rgb(253, 70, 24);
+    transition: all .3s ease;
+}
+.icon:hover {
+    color: blanchedalmond;
+}
+.title {
+    font-size: 1.2rem;
+}
