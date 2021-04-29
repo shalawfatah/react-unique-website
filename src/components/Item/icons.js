@@ -1,30 +1,30 @@
 import { SiGmail, SiYoutubetv, SiTwitter, SiTwitch, SiTelegram, SiSlack} from "react-icons/si";
+import { FaHome, FaCode } from "react-icons/fa";
+import {MdContacts} from 'react-icons/md'
+import {GiSkills} from 'react-icons/gi'
+import {BsInfoCircleFill} from 'react-icons/bs'
 
 
 const items = [
     {
-        icon: <SiGmail />,
-        title: 'Gmail'
+        icon: <FaHome />,
+        title: 'Home'
     },
     {
-        icon: <SiYoutubetv />,
-        title: 'Youtube'
+        icon: <FaCode />,
+        title: 'Projects'
     },
     {
-        icon: <SiTwitter />,
-        title: 'Twitter'
+        icon: <GiSkills />,
+        title: 'Skills'
     },
     {
-        icon: <SiTwitch />,
-        title: 'Twitch'
+        icon: <MdContacts />,
+        title: 'Contacts'
     },
     {
-        icon: <SiTelegram />,
-        title: 'Telegram'
-    },
-    {
-        icon: <SiSlack />,
-        title: 'Slack'
+        icon: <BsInfoCircleFill />,
+        title: 'About'
     },
 ]
 

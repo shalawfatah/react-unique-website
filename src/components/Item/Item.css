@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     margin: 1rem;
+
 }
 .icon {
     font-size: 4rem;
@@ -18,7 +19,6 @@
     font-size: 1.2rem;
 }
 .app-container {
-    margin: 2rem;
     display: flex;
     flex-wrap: wrap;
 }
