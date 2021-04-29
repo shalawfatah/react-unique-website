@@ -6,12 +6,14 @@ import Navbar from './components/Header/Navbar';
 function App() {
   return (
     <BrowserRouter>
+    <div className="container-all">
     <Navbar />
       <Switch>
         <Route path='/' exact>
           <Home />
         </Route>
       </Switch>
+      </div>
     </BrowserRouter>
   );
 }
