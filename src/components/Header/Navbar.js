@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Search from '../Search/Search'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
                 <li className="nav-item">News</li>
                 <li className="nav-item">Contact</li>
             </ul>
-            
+            <Search />
         </div>
     )
 }
