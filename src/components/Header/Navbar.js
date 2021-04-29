@@ -7,11 +7,11 @@ const Navbar = () => {
     return (
         <div className="header-container">
             <ul className="navbar">
-                <li className="nav-item">Home</li>
-                <li className="nav-item">About</li>
-                <li className="nav-item">Projects</li>
-                <li className="nav-item">News</li>
-                <li className="nav-item">Contact</li>
+                <li className="nav-item">Blog</li>
+                <li className="nav-item">Hobbies</li>
+                <li className="nav-item">My Story</li>
+                <li className="nav-item">Wishlist</li>
+                <li className="nav-item">Resumee</li>
             </ul>
             <Search />
         </div>
