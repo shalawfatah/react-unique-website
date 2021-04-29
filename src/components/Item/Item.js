@@ -6,7 +6,7 @@ import './Item.css'
 
 const Item = ({icon, title}) => {
     return (
-        <div>
+        <div className="app-container">
             {
                 items.map((item) => {
                     return (
